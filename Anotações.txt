@@ -1,0 +1,22 @@
+# Incializar um projeto no Git
+git init
+
+# Clonar um projeto do GitHub
+git clone [código https do projeto]
+
+# Verificar se existe alguma pendência/status do repositório
+git status
+
+# Adicionar pastar e arquivos que não existiam antes
+git add .
+
+# Comitar essas novas informações 
+git commit -m "texto"
+
+# Subir commit para a nuvem/GitHub
+git push origin main 
+
+Caso seja sua primeira introdução ao Git, irá pedir para configurar seu e-mail e seu nome de forma global, com os seguintes comandos: 
+
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
